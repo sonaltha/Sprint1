@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>🎬 Movies</h1>
+
+<!-- 🔍 MOVIE SEARCH -->
+<form method="POST" class="search-box">
+    <input type="text" name="movie" placeholder="Search movies..." required>
+    <button type="submit">Search</button>
+</form>
+
+{% if message %}
+<p class="error">{{ message }}</p>
+{% endif %}
+
+<div class="grid">
+    {% for movie in movie_data %}
+    <div class="card">
+        <img src="{{ movie.poster }}">
+        <div class="info">
+            <h3>{{ movie.title }}</h3>
+            <p>⭐ {{ movie.rating }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

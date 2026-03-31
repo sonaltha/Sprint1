@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MovieFlix</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- 🔝 NAVBAR -->
+<nav class="navbar">
+
+    <!-- 🎬 Logo -->
+    <div class="logo">🎬 MovieFlix</div>
+
+    <!-- 🔗 Links -->
+   <ul class="nav-links">
+    <li><a href="/home">Home</a></li>
+    <li><a href="/movies">Movies</a></li>
+    <li><a href="/series">Series</a></li>
+
+    {% if session.get("user") %}
+        <li class="user-name">👤 {{ session.get("user") }}</li>
+        <li><a href="/logout">Logout</a></li>
+    {% else %}
+        <li><a href="/">Login</a></li>
+    {% endif %}
+</ul>
+    <!-- 👤 RIGHT SECTION -->
+    <div class="nav-right">
+
+        <!-- 👤 Profile Image -->
+       <img src="{{ url_for('static', filename='images/profile.jpg') }}" class="profile-img" alt="User">
+
+        <!-- 🚪 Logout -->
+        <a href="/logout" class="logout-btn">Logout</a>
+
+    </div>
+
+</nav>
+
+<!-- 📄 PAGE CONTENT -->
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+
+<!-- 🔻 FOOTER -->
+<footer class="footer">
+    <p>© 2026 MovieFlix | Built with ❤️ using Flask</p>
+</footer>
+
+<script>
+let index = 0;
+
+function showSlide() {
+    const slides = document.querySelectorAll(".slide");
+
+    if (slides.length === 0) return;
+
+    slides.forEach((slide) => {
+        slide.style.transform = `translateX(-${index * 100}%)`;
+    });
+
+    index = (index + 1) % slides.length;
+}
+
+setInterval(showSlide, 3000);
+</script>
+<script>
+function searchMovie() {
+    let movie = document.querySelector("input[name='movie']").value;
+
+    fetch(`http://127.0.0.1:5000/recommend?movie=${movie}`)
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+
+        // you can display data on UI here
+    });
+}
+</script>
+
+</body>
+</html>

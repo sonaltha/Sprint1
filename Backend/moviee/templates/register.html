@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MovieBox Register</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: url("https://images.unsplash.com/photo-1534447677768-be436bb09401") no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .register-box {
+            background: rgba(0, 0, 0, 0.85);
+            padding: 40px;
+            border-radius: 15px;
+            width: 350px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            color: #00d4ff;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            background: #111;
+            color: white;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .register-btn {
+            background: #00d4ff;
+            color: black;
+        }
+
+        .login-btn {
+            background: transparent;
+            border: 1px solid white;
+            color: white;
+        }
+
+        a {
+            color: #00d4ff;
+            text-decoration: none;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="register-box">
+
+    <h1>MOVIEFLIX</h1>
+
+    <input id="name" placeholder="Full Name">
+    <input id="age" type="number" placeholder="Age">
+    <input id="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Password">
+
+    <button class="btn register-btn" onclick="register()">SIGN UP</button>
+
+    <p>Already have an account?</p>
+    <button class="btn login-btn" onclick="goLogin()">SIGN IN</button>
+
+</div>
+
+<script>
+function register() {
+
+    let name = document.getElementById("name").value.trim();
+    let age = document.getElementById("age").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let password = document.getElementById("password").value.trim();
+
+    // ✅ Empty validation
+    if(name === "" || age === "" || email === "" || password === ""){
+        alert("Please fill all fields");
+        return;
+    }
+
+    // ✅ Name validation
+    if(name.length < 5){
+        alert("Name must be at least 5 characters");
+        return;
+    }
+
+    // ✅ Age validation
+    if(age < 18){
+        alert("Age must be 18 or above");
+        return;
+    }
+
+    // ✅ Email validation
+    let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+    if(!email.match(emailPattern)){
+        alert("Enter valid email");
+        return;
+    }
+
+    // ✅ Password validation
+    let passwordPattern = /^(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])/;
+
+    if(password.length < 6){
+        alert("Password must be at least 6 characters");
+        return;
+    }
+
+    if(!password.match(passwordPattern)){
+        alert("Password must contain:\n- 1 Uppercase letter\n- 1 Number\n- 1 Special symbol");
+        return;
+    }
+
+    // ✅ API call
+    fetch("http://localhost:8080/auth/register", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+            name: name,
+            age: age,
+            email: email,
+            password: password
+        })
+    })
+    .then(res => res.text())
+    .then(data => {
+        alert(data);
+        window.location.href = "/";   // Flask route
+    });
+}
+
+function goLogin() {
+    window.location.href = "/";
+}
+</script>
+
+</body>
+</html>

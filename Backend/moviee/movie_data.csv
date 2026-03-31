@@ -1,0 +1,211 @@
+movieId,title,year,genres,rating,keywords
+1,3 Idiots 1,2009,Comedy|Drama,8.4,college friendship life
+2,Dangal 2,2016,Drama|Sports,8.4,wrestling family
+3,PK 3,2014,Comedy|Drama,8.1,alien religion
+4,Bajrangi Bhaijaan 4,2015,Drama|Adventure,8.1,child journey
+5,Zindagi Na Milegi Dobara 5,2011,Drama|Adventure,8.2,friends travel
+6,Kabir Singh 6,2019,Romance|Drama,7.0,love anger
+7,War 7,2019,Action|Thriller,6.5,spy mission
+8,Pathaan 8,2023,Action|Thriller,6.5,spy action
+9,Jawan 9,2023,Action|Drama,7.0,justice vigilante
+10,Animal 10,2023,Crime|Drama,7.2,family violence
+11,3 Idiots 11,2009,Comedy|Drama,8.4,college friendship life
+12,Dangal 12,2016,Drama|Sports,8.4,wrestling family
+13,PK 13,2014,Comedy|Drama,8.1,alien religion
+14,Bajrangi Bhaijaan 14,2015,Drama|Adventure,8.1,child journey
+15,Zindagi Na Milegi Dobara 15,2011,Drama|Adventure,8.2,friends travel
+16,Kabir Singh 16,2019,Romance|Drama,7.0,love anger
+17,War 17,2019,Action|Thriller,6.5,spy mission
+18,Pathaan 18,2023,Action|Thriller,6.5,spy action
+19,Jawan 19,2023,Action|Drama,7.0,justice vigilante
+20,Animal 20,2023,Crime|Drama,7.2,family violence
+21,3 Idiots 21,2009,Comedy|Drama,8.4,college friendship life
+22,Dangal 22,2016,Drama|Sports,8.4,wrestling family
+23,PK 23,2014,Comedy|Drama,8.1,alien religion
+24,Bajrangi Bhaijaan 24,2015,Drama|Adventure,8.1,child journey
+25,Zindagi Na Milegi Dobara 25,2011,Drama|Adventure,8.2,friends travel
+26,Kabir Singh 26,2019,Romance|Drama,7.0,love anger
+27,War 27,2019,Action|Thriller,6.5,spy mission
+28,Pathaan 28,2023,Action|Thriller,6.5,spy action
+29,Jawan 29,2023,Action|Drama,7.0,justice vigilante
+30,Animal 30,2023,Crime|Drama,7.2,family violence
+31,3 Idiots 31,2009,Comedy|Drama,8.4,college friendship life
+32,Dangal 32,2016,Drama|Sports,8.4,wrestling family
+33,PK 33,2014,Comedy|Drama,8.1,alien religion
+34,Bajrangi Bhaijaan 34,2015,Drama|Adventure,8.1,child journey
+35,Zindagi Na Milegi Dobara 35,2011,Drama|Adventure,8.2,friends travel
+36,Kabir Singh 36,2019,Romance|Drama,7.0,love anger
+37,War 37,2019,Action|Thriller,6.5,spy mission
+38,Pathaan 38,2023,Action|Thriller,6.5,spy action
+39,Jawan 39,2023,Action|Drama,7.0,justice vigilante
+40,Animal 40,2023,Crime|Drama,7.2,family violence
+41,3 Idiots 41,2009,Comedy|Drama,8.4,college friendship life
+42,Dangal 42,2016,Drama|Sports,8.4,wrestling family
+43,PK 43,2014,Comedy|Drama,8.1,alien religion
+44,Bajrangi Bhaijaan 44,2015,Drama|Adventure,8.1,child journey
+45,Zindagi Na Milegi Dobara 45,2011,Drama|Adventure,8.2,friends travel
+46,Kabir Singh 46,2019,Romance|Drama,7.0,love anger
+47,War 47,2019,Action|Thriller,6.5,spy mission
+48,Pathaan 48,2023,Action|Thriller,6.5,spy action
+49,Jawan 49,2023,Action|Drama,7.0,justice vigilante
+50,Animal 50,2023,Crime|Drama,7.2,family violence
+51,3 Idiots 51,2009,Comedy|Drama,8.4,college friendship life
+52,Dangal 52,2016,Drama|Sports,8.4,wrestling family
+53,PK 53,2014,Comedy|Drama,8.1,alien religion
+54,Bajrangi Bhaijaan 54,2015,Drama|Adventure,8.1,child journey
+55,Zindagi Na Milegi Dobara 55,2011,Drama|Adventure,8.2,friends travel
+56,Kabir Singh 56,2019,Romance|Drama,7.0,love anger
+57,War 57,2019,Action|Thriller,6.5,spy mission
+58,Pathaan 58,2023,Action|Thriller,6.5,spy action
+59,Jawan 59,2023,Action|Drama,7.0,justice vigilante
+60,Animal 60,2023,Crime|Drama,7.2,family violence
+61,3 Idiots 61,2009,Comedy|Drama,8.4,college friendship life
+62,Dangal 62,2016,Drama|Sports,8.4,wrestling family
+63,PK 63,2014,Comedy|Drama,8.1,alien religion
+64,Bajrangi Bhaijaan 64,2015,Drama|Adventure,8.1,child journey
+65,Zindagi Na Milegi Dobara 65,2011,Drama|Adventure,8.2,friends travel
+66,Kabir Singh 66,2019,Romance|Drama,7.0,love anger
+67,War 67,2019,Action|Thriller,6.5,spy mission
+68,Pathaan 68,2023,Action|Thriller,6.5,spy action
+69,Jawan 69,2023,Action|Drama,7.0,justice vigilante
+70,Animal 70,2023,Crime|Drama,7.2,family violence
+71,Avengers: Endgame 71,2019,Action|Sci-Fi,8.4,superhero battle
+72,Titanic 72,1997,Romance|Drama,7.9,ship love
+73,Inception 73,2010,Sci-Fi|Thriller,8.8,dream mind
+74,Interstellar 74,2014,Sci-Fi|Drama,8.6,space time
+75,The Dark Knight 75,2008,Action|Crime,9.0,joker batman
+76,Joker 76,2019,Crime|Drama,8.4,mental society
+77,Frozen 77,2013,Animation|Fantasy,7.5,princess magic
+78,Avatar 78,2009,Sci-Fi|Adventure,7.8,alien planet
+79,Top Gun: Maverick 79,2022,Action|Drama,8.3,pilot airforce
+80,Spider-Man: No Way Home 80,2021,Action|Fantasy,8.2,multiverse hero
+81,Avengers: Endgame 81,2019,Action|Sci-Fi,8.4,superhero battle
+82,Titanic 82,1997,Romance|Drama,7.9,ship love
+83,Inception 83,2010,Sci-Fi|Thriller,8.8,dream mind
+84,Interstellar 84,2014,Sci-Fi|Drama,8.6,space time
+85,The Dark Knight 85,2008,Action|Crime,9.0,joker batman
+86,Joker 86,2019,Crime|Drama,8.4,mental society
+87,Frozen 87,2013,Animation|Fantasy,7.5,princess magic
+88,Avatar 88,2009,Sci-Fi|Adventure,7.8,alien planet
+89,Top Gun: Maverick 89,2022,Action|Drama,8.3,pilot airforce
+90,Spider-Man: No Way Home 90,2021,Action|Fantasy,8.2,multiverse hero
+91,Avengers: Endgame 91,2019,Action|Sci-Fi,8.4,superhero battle
+92,Titanic 92,1997,Romance|Drama,7.9,ship love
+93,Inception 93,2010,Sci-Fi|Thriller,8.8,dream mind
+94,Interstellar 94,2014,Sci-Fi|Drama,8.6,space time
+95,The Dark Knight 95,2008,Action|Crime,9.0,joker batman
+96,Joker 96,2019,Crime|Drama,8.4,mental society
+97,Frozen 97,2013,Animation|Fantasy,7.5,princess magic
+98,Avatar 98,2009,Sci-Fi|Adventure,7.8,alien planet
+99,Top Gun: Maverick 99,2022,Action|Drama,8.3,pilot airforce
+100,Spider-Man: No Way Home 100,2021,Action|Fantasy,8.2,multiverse hero
+101,Avengers: Endgame 101,2019,Action|Sci-Fi,8.4,superhero battle
+102,Titanic 102,1997,Romance|Drama,7.9,ship love
+103,Inception 103,2010,Sci-Fi|Thriller,8.8,dream mind
+104,Interstellar 104,2014,Sci-Fi|Drama,8.6,space time
+105,The Dark Knight 105,2008,Action|Crime,9.0,joker batman
+106,Joker 106,2019,Crime|Drama,8.4,mental society
+107,Frozen 107,2013,Animation|Fantasy,7.5,princess magic
+108,Avatar 108,2009,Sci-Fi|Adventure,7.8,alien planet
+109,Top Gun: Maverick 109,2022,Action|Drama,8.3,pilot airforce
+110,Spider-Man: No Way Home 110,2021,Action|Fantasy,8.2,multiverse hero
+111,Avengers: Endgame 111,2019,Action|Sci-Fi,8.4,superhero battle
+112,Titanic 112,1997,Romance|Drama,7.9,ship love
+113,Inception 113,2010,Sci-Fi|Thriller,8.8,dream mind
+114,Interstellar 114,2014,Sci-Fi|Drama,8.6,space time
+115,The Dark Knight 115,2008,Action|Crime,9.0,joker batman
+116,Joker 116,2019,Crime|Drama,8.4,mental society
+117,Frozen 117,2013,Animation|Fantasy,7.5,princess magic
+118,Avatar 118,2009,Sci-Fi|Adventure,7.8,alien planet
+119,Top Gun: Maverick 119,2022,Action|Drama,8.3,pilot airforce
+120,Spider-Man: No Way Home 120,2021,Action|Fantasy,8.2,multiverse hero
+121,Avengers: Endgame 121,2019,Action|Sci-Fi,8.4,superhero battle
+122,Titanic 122,1997,Romance|Drama,7.9,ship love
+123,Inception 123,2010,Sci-Fi|Thriller,8.8,dream mind
+124,Interstellar 124,2014,Sci-Fi|Drama,8.6,space time
+125,The Dark Knight 125,2008,Action|Crime,9.0,joker batman
+126,Joker 126,2019,Crime|Drama,8.4,mental society
+127,Frozen 127,2013,Animation|Fantasy,7.5,princess magic
+128,Avatar 128,2009,Sci-Fi|Adventure,7.8,alien planet
+129,Top Gun: Maverick 129,2022,Action|Drama,8.3,pilot airforce
+130,Spider-Man: No Way Home 130,2021,Action|Fantasy,8.2,multiverse hero
+131,Avengers: Endgame 131,2019,Action|Sci-Fi,8.4,superhero battle
+132,Titanic 132,1997,Romance|Drama,7.9,ship love
+133,Inception 133,2010,Sci-Fi|Thriller,8.8,dream mind
+134,Interstellar 134,2014,Sci-Fi|Drama,8.6,space time
+135,The Dark Knight 135,2008,Action|Crime,9.0,joker batman
+136,Joker 136,2019,Crime|Drama,8.4,mental society
+137,Frozen 137,2013,Animation|Fantasy,7.5,princess magic
+138,Avatar 138,2009,Sci-Fi|Adventure,7.8,alien planet
+139,Top Gun: Maverick 139,2022,Action|Drama,8.3,pilot airforce
+140,Spider-Man: No Way Home 140,2021,Action|Fantasy,8.2,multiverse hero
+141,Baahubali: The Beginning 141,2015,Action|Drama,8.0,kingdom war
+142,Baahubali 2 142,2017,Action|Drama,8.2,revenge throne
+143,KGF Chapter 1 143,2018,Action|Crime,8.2,gold mafia
+144,KGF Chapter 2 144,2022,Action|Crime,8.3,power empire
+145,Pushpa: The Rise 145,2021,Action|Drama,7.6,smuggling sandalwood
+146,RRR 146,2022,Action|Drama,8.0,freedom fight
+147,Vikram 147,2022,Action|Thriller,8.3,drug mafia
+148,Master 148,2021,Action|Drama,7.3,college crime
+149,Leo 149,2023,Action|Thriller,7.2,gangster past
+150,Drishyam 150,2015,Crime|Thriller,8.2,family crime
+151,Baahubali: The Beginning 151,2015,Action|Drama,8.0,kingdom war
+152,Baahubali 2 152,2017,Action|Drama,8.2,revenge throne
+153,KGF Chapter 1 153,2018,Action|Crime,8.2,gold mafia
+154,KGF Chapter 2 154,2022,Action|Crime,8.3,power empire
+155,Pushpa: The Rise 155,2021,Action|Drama,7.6,smuggling sandalwood
+156,RRR 156,2022,Action|Drama,8.0,freedom fight
+157,Vikram 157,2022,Action|Thriller,8.3,drug mafia
+158,Master 158,2021,Action|Drama,7.3,college crime
+159,Leo 159,2023,Action|Thriller,7.2,gangster past
+160,Drishyam 160,2015,Crime|Thriller,8.2,family crime
+161,Baahubali: The Beginning 161,2015,Action|Drama,8.0,kingdom war
+162,Baahubali 2 162,2017,Action|Drama,8.2,revenge throne
+163,KGF Chapter 1 163,2018,Action|Crime,8.2,gold mafia
+164,KGF Chapter 2 164,2022,Action|Crime,8.3,power empire
+165,Pushpa: The Rise 165,2021,Action|Drama,7.6,smuggling sandalwood
+166,RRR 166,2022,Action|Drama,8.0,freedom fight
+167,Vikram 167,2022,Action|Thriller,8.3,drug mafia
+168,Master 168,2021,Action|Drama,7.3,college crime
+169,Leo 169,2023,Action|Thriller,7.2,gangster past
+170,Drishyam 170,2015,Crime|Thriller,8.2,family crime
+171,Baahubali: The Beginning 171,2015,Action|Drama,8.0,kingdom war
+172,Baahubali 2 172,2017,Action|Drama,8.2,revenge throne
+173,KGF Chapter 1 173,2018,Action|Crime,8.2,gold mafia
+174,KGF Chapter 2 174,2022,Action|Crime,8.3,power empire
+175,Pushpa: The Rise 175,2021,Action|Drama,7.6,smuggling sandalwood
+176,RRR 176,2022,Action|Drama,8.0,freedom fight
+177,Vikram 177,2022,Action|Thriller,8.3,drug mafia
+178,Master 178,2021,Action|Drama,7.3,college crime
+179,Leo 179,2023,Action|Thriller,7.2,gangster past
+180,Drishyam 180,2015,Crime|Thriller,8.2,family crime
+181,Baahubali: The Beginning 181,2015,Action|Drama,8.0,kingdom war
+182,Baahubali 2 182,2017,Action|Drama,8.2,revenge throne
+183,KGF Chapter 1 183,2018,Action|Crime,8.2,gold mafia
+184,KGF Chapter 2 184,2022,Action|Crime,8.3,power empire
+185,Pushpa: The Rise 185,2021,Action|Drama,7.6,smuggling sandalwood
+186,RRR 186,2022,Action|Drama,8.0,freedom fight
+187,Vikram 187,2022,Action|Thriller,8.3,drug mafia
+188,Master 188,2021,Action|Drama,7.3,college crime
+189,Leo 189,2023,Action|Thriller,7.2,gangster past
+190,Drishyam 190,2015,Crime|Thriller,8.2,family crime
+191,Baahubali: The Beginning 191,2015,Action|Drama,8.0,kingdom war
+192,Baahubali 2 192,2017,Action|Drama,8.2,revenge throne
+193,KGF Chapter 1 193,2018,Action|Crime,8.2,gold mafia
+194,KGF Chapter 2 194,2022,Action|Crime,8.3,power empire
+195,Pushpa: The Rise 195,2021,Action|Drama,7.6,smuggling sandalwood
+196,RRR 196,2022,Action|Drama,8.0,freedom fight
+197,Vikram 197,2022,Action|Thriller,8.3,drug mafia
+198,Master 198,2021,Action|Drama,7.3,college crime
+199,Leo 199,2023,Action|Thriller,7.2,gangster past
+200,Drishyam 200,2015,Crime|Thriller,8.2,family crime
+201,Baahubali: The Beginning 201,2015,Action|Drama,8.0,kingdom war
+202,Baahubali 2 202,2017,Action|Drama,8.2,revenge throne
+203,KGF Chapter 1 203,2018,Action|Crime,8.2,gold mafia
+204,KGF Chapter 2 204,2022,Action|Crime,8.3,power empire
+205,Pushpa: The Rise 205,2021,Action|Drama,7.6,smuggling sandalwood
+206,RRR 206,2022,Action|Drama,8.0,freedom fight
+207,Vikram 207,2022,Action|Thriller,8.3,drug mafia
+208,Master 208,2021,Action|Drama,7.3,college crime
+209,Leo 209,2023,Action|Thriller,7.2,gangster past
+210,Drishyam 210,2015,Crime|Thriller,8.2,family crime

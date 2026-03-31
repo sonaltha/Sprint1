@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- 🎞️ AUTO SLIDER -->
+<div class="slider">
+    {% for movie in banner_movies %}
+    <div class="slide">
+        <img src="{{ movie.poster }}">
+        <h2>{{ movie.title }}</h2>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- 🔍 SEARCH -->
+<div class="hero">
+    <form onsubmit="event.preventDefault(); searchMovie();">
+    <input type="text" name="movie" placeholder="Search movie..." required>
+    <button type="submit">Search</button>
+</form>
+</div>
+
+{% if message %}
+<p class="error">{{ message }}</p>
+{% endif %}
+
+<!-- 🎬 TRENDING -->
+<h2>🔥 Trending Movies</h2>
+<div class="grid">
+    {% for movie in trending_movies %}
+        <div class="card">
+            <img src="{{ movie.poster }}">
+            <h3>{{ movie.title }}</h3>
+        </div>
+    {% endfor %}
+</div>
+
+<!-- ⭐ TOP RATED -->
+<h2>⭐ Top Rated</h2>
+<div class="grid">
+    {% for movie in top_rated %}
+        <div class="card">
+            <img src="{{ movie.poster }}">
+            <h3>{{ movie.title }}</h3>
+        </div>
+    {% endfor %}
+</div>
+
+<!-- 😂 COMEDY -->
+<h2>😂 Comedy</h2>
+<div class="grid">
+    {% for movie in comedy_movies %}
+        <div class="card">
+            <img src="{{ movie.poster }}">
+            <h3>{{ movie.title }}</h3>
+        </div>
+    {% endfor %}
+</div>
+
+<!-- 👻 HORROR -->
+<h2>👻 Horror</h2>
+<div class="grid">
+    {% for movie in horror_movies %}
+        <div class="card">
+            <img src="{{ movie.poster }}">
+            <h3>{{ movie.title }}</h3>
+        </div>
+    {% endfor %}
+</div>
+
+<!-- 🇮🇳 BOLLYWOOD -->
+<h2>🇮🇳 Bollywood</h2>
+<div class="grid">
+    {% for movie in bollywood_movies %}
+        <div class="card">
+            <img src="{{ movie.poster }}">
+            <h3>{{ movie.title }}</h3>
+        </div>
+    {% endfor %}
+</div>
+
+<!-- 🎯 SEARCH RESULT -->
+{% if movie_data %}
+<h2>🎯 Your Results</h2>
+<div class="grid">
+    {% for movie in movie_data %}
+        <div class="card">
+            <img src="{{ movie.poster }}">
+            <div class="info">
+                <h3>{{ movie.title }}</h3>
+                <p>⭐ {{ movie.rating }}</p>
+                <p class="overview">{{ movie.overview[:100] }}...</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- 🔝 NAVBAR -->
+<nav class="navbar">
+
+    <!-- 🎬 Logo -->
+    <div class="logo">🎬 MovieFlix</div>
+
+    <!-- 🍔 Hamburger -->
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <!-- 🔗 Links -->
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="active">Home</a></li>
+
+        <!-- 🎬 Movies Dropdown -->
+        <li class="dropdown">
+            <a href="#">Movies ▼</a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Comedy</a></li>
+                <li><a href="#">Drama</a></li>
+            </ul>
+        </li>
+
+        <!-- 📺 Series Dropdown -->
+        <li class="dropdown">
+            <a href="#">Series ▼</a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Top Rated</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- 👤 Right Section -->
+    <div class="nav-right">
+        <button onclick="toggleTheme()" class="theme-btn">🌙</button>
+        <div class="profile">👤</div>
+    </div>
+
+</nav>
+
+<div class="container">
+
+    <h1>Find Your Next Movie 🍿</h1>
+
+    <!-- 🔍 SEARCH -->
+    <form method="POST" class="search-box">
+        <input type="text" name="movie" placeholder="Search movie, genre, or series..." required>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if message %}
+        <p class="error">{{ message }}</p>
+    {% endif %}
+
+    {% if movie_data %}
+    <div class="grid">
+        {% for movie in movie_data %}
+        <div class="card">
+            <img src="{{ movie.poster }}"
+                 onerror="this.onerror=null; this.src='https://via.placeholder.com/200x300?text=No+Image';">
+
+            <div class="info">
+                <h3>{{ movie.title }}</h3>
+                <p>⭐ {{ movie.rating }}</p>
+                <p class="overview">{{ movie.overview }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+</div>
+
+<!-- 🔻 FOOTER -->
+<footer class="footer">
+    <p>© 2026 MovieFlix | Built with ❤️ using Flask</p>
+</footer>
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
+
+function toggleTheme() {
+    document.body.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>
